@@ -1,14 +1,14 @@
-# 核心数据库 - PostgreSQL 15 (Alpine 版本)
-postgres:15-alpine
+# 核心数据库 - PostgreSQL 15
+postgres:15
 
-# 缓存 - Redis 7 (Alpine 版本)
-redis:7-alpine
+# 缓存 - Redis 7
+redis:7
 
-# 后端基础镜像 - Python 3.11 (Alpine 版本)
-python:3.11-alpine
+# 后端基础镜像 - Python 3.11 (Slim 版本)
+python:3.11-slim
 
-# 前端构建镜像 - Node.js 20 (Alpine 版本)
-node:20-alpine
+# 前端构建镜像 - Node.js 20 (Slim 版本)
+node:20-slim
 
-# 前端运行时 - Nginx (Alpine 版本)
-nginx:alpine
+# 前端运行时 - Nginx
+nginx
